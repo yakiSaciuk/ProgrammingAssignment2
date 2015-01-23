@@ -16,7 +16,7 @@ makeCacheMatrix <- function(m = matrix()){
   # test assertion #1: accepted argument should be matrix
   if (class(m) != "matrix"){return(print(paste("inserted argument should be matrix, not:", class(m))))}
   
-  # test assertion #1: accepted matrix should be square
+  # test assertion #2: accepted matrix should be square
   if(!issquare(m)){return(print("inserted matrix is non-square"))}
   
   
